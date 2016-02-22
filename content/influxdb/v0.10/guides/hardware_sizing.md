@@ -10,16 +10,16 @@ This guide offers general hardware recommendations for InfluxDB and addresses so
 
 Single node:
 
-* [General hardware guidelines for a single node](/influxdb/v0.10/guides/hardware_sizing/#general-hardware-guidelines-for-a-single-node)
-* [When do I need more RAM?](/influxdb/v0.10/guides/hardware_sizing/#when-do-i-need-more-ram)
-* [What kind of storage do I need?](/influxdb/v0.10/guides/hardware_sizing/#what-kind-of-storage-do-i-need)
-* [How much storage do I need?](/influxdb/v0.10/guides/hardware_sizing/#how-much-storage-do-i-need)
-* [How should I configure my hardware?](/influxdb/v0.10/guides/hardware_sizing/#how-should-i-configure-my-hardware)
+* [General hardware guidelines for a single node](#general-hardware-guidelines-for-a-single-node)
+* [When do I need more RAM?](#when-do-i-need-more-ram)
+* [What kind of storage do I need?](#what-kind-of-storage-do-i-need)
+* [How much storage do I need?](#how-much-storage-do-i-need)
+* [How should I configure my hardware?](#how-should-i-configure-my-hardware)
 
 Clustering:
 
-* [General hardware guidelines for clusters](/influxdb/v0.10/guides/hardware_sizing/#general-hardware-guidelines-for-clusters)
-* [How should I configure my hardware?](/influxdb/v0.10/guides/hardware_sizing/#how-should-i-configure-my-hardware-1)
+* [General hardware guidelines for clusters](#general-hardware-guidelines-for-clusters)
+* [How should I configure my hardware?](#how-should-i-configure-my-hardware-1)
 
 ## General hardware guidelines for a single node
 

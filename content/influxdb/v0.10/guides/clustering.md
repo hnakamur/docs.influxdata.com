@@ -13,14 +13,14 @@ InfluxDB supports arbitrarily sized clusters and any replication
 factor from 1 to the number of nodes in the cluster. There are two
 types of nodes in an InfluxDB cluster:
 
-- [Meta nodes](/influxdb/v0.10/concepts/glossary/#meta-node) coordinate
+- [Meta nodes](../../concepts/glossary/#meta-node) coordinate
 activity in the cluster.  Meta nodes do not require significant system
 resources and can run on a very lightweight server.
 
-- [Data nodes](/influxdb/v0.10/concepts/glossary/#data-node) store data
+- [Data nodes](../../concepts/glossary/#data-node) store data
 and respond to queries. Data nodes must run on systems with at least
 2 CPUs, 4GB RAM, and storage with 1000 IOPS.  See the
-[hardware sizing guide](/influxdb/v0.10/guides/hardware_sizing/) for
+[hardware sizing guide](../hardware_sizing/) for
 more detail.
 
 Any node can be a meta node, data node, or both. Each cluster must
@@ -43,7 +43,7 @@ _three_ nodes in order to form a healthy raft cluster. It is also
 assumed that you are running some version of Linux, and, while it is
 possible to build a cluster locally, it is not recommended.
 
-1. Install InfluxDB on the 3 machines following the [installation guide](/influxdb/v0.10/introduction/installation/).
+1. Install InfluxDB on the 3 machines following the [installation guide](../../introduction/installation/).
 Do not start the daemon on any of the machines.
 2. For each node's `/etc/influxdb/influxdb.conf` file, replace each of the following paramaters:
    - Under the `[meta]` section, set the `bind-address` parameter to `<hostname>:8088`. For example, `influx1`'s meta `bind-address` value will be set to `influx1:8088`.
